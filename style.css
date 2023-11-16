@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+body{
+    background-color: rgb(50, 154, 157);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Edu+TAS+Beginner';
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: darkgoldenrod;
+    height: 67px;
+}
+.brand img{
+    width: 79px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+}
+NAV UL li{
+    padding: 5PX;
+}
+.container{
+    padding-top: 5PX;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 70vh;
+    background-color: black;
+    color: azure;
+    width: 70%;
+    margin: 23PX auto;
+    background-image: url('th (1).jpg');
+    border-radius: 15px;
+    
+}
+.bottom{
+    display: flex;
+    position: sticky;
+    height: 75px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    padding: 5PX;
+    flex-direction: column;
+}
+#myprogressbar{
+    display: flex;
+    width: 80vw;    
+}
+.FORD{
+    padding: 5PX;
+    font-size: larger;
+}
+.songlist img{
+    width: 30px;
+    margin-left: 5px;
+}
+.songitem{
+    height: 40px;
+    display: flex;
+    width: 20%;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px;
+}
